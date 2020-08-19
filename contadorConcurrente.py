@@ -24,6 +24,7 @@ for i in range(THREADS):
     t.start()
 
 # como el contador es compartido el valor final es indefinido.
+# al ser otro for el del join no espera a que uno finalice para lanzar el siguiente.
 for t in threads:
     t.join()
 print(threads)

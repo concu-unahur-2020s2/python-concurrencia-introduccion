@@ -30,3 +30,7 @@ for thread in lista:
 
 cont.finalizar()
 cont.imprimir()
+
+# Respuesta:
+# Porque ejecuta los 10 thread del for que estos llaman al metodo dormir en donde se les pasa los segundos por 
+# el args, y para que el metodo start no pise al metodo thread se instancia un metodo join en los thread. 

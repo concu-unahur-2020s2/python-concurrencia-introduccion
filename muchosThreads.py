@@ -11,7 +11,6 @@ logging.basicConfig(format='%(asctime)s.%(msecs)03d [%(threadName)s] - %(message
 def dormir(secs):
     time.sleep(secs)
 
-
 cont = Contador()
 
 cont.iniciar()

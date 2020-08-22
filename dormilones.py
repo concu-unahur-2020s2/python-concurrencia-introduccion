@@ -52,4 +52,3 @@ t2.join()
 
 contador.finalizar()
 contador.imprimir()
-

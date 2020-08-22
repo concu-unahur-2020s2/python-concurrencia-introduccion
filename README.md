@@ -35,7 +35,7 @@ Ahora corré el script: ¿por qué tarda lo que tarda?
 - Mirá el código pero _no lo ejecutes_,
 - Mirá el código pero _no lo ejecutes_.
 
-(Referencia [The First Rule of Fight Club (1999)](https://www.youtube.com/watch?v=dC1yHLp9bWA))
+(Referencia [The First Rule of Fight Club (1999)](https://www.youtubdC1yHLp9bWAe.com/watch?v=))
 
 Mirando el código de `contadorConcurrente.py`, pero sin ejecutarlo:
 - Al ejecutar la función `cuenta()`, ¿cuántas veces se ejecuta el `for` que tiene adentro, y qué hace cada iteración del `for`?
@@ -46,3 +46,16 @@ Mirando el código de `contadorConcurrente.py`, pero sin ejecutarlo:
 Ahora corré `contadorConcurrente.py`:
 - Correlo varias veces, ¿qué observás que pasa?
 - ¿Por qué está pasando eso que observás?
+
+RESPUESTAS
+
+- El for se va a ejecutar la cantidad de THEADS pasados por parametros.
+ en la primer iteracion crea un thead, lo agrega a la lista theads y luego lo incia
+ -si cada thead lanza la ejcucion de ctas
+ -si se espera que ternime cada ejecucion
+ -el counter imprimer 1e6
+
+
+-en cada ejecucion el valor del counter varia
+-Esto esta pasando por que los theads esta hacediendo al mismo recuriso(variable "counter" si esperar que termine la ejecucion de cada theads)
+
